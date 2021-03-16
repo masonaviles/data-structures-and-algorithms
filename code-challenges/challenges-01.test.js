@@ -167,7 +167,15 @@ This function should use forEach to populate your grocery list based on the stor
 // });
 
 const createList = (availableItems) => {
-  // Solution code here...
+  const availableList = [];
+  const notAvailableList = [];
+  availableItems.forEach(element => {
+    if (element['available']) {
+      availableList.push(element['name']);
+    } else {
+    }
+  });
+  return availableList;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -194,7 +202,26 @@ Return the resulting output array.
 // });
 
 const fizzbuzz = (arr) => {
-  // Solution code here...
+
+  const newArr = [];
+
+  arr.forEach(element => {
+    //If a number is divisible by 3, add the word "Fizz" to the output array.
+    if ((element % 3 === 0) && (element % 5 === 0)) {
+      newArr.push("Fizz Buzz");
+      //If the number is divisible by 5, add the word "Buzz" to the output array.
+    } else if (element % 5 === 0) {
+      newArr.push("Buzz");
+      //If the number is divisible by both 3 and 5, add the phrase "Fizz Buzz" to the output array.
+    } else if (element % 3 === 0) {
+      newArr.push("Fizz");
+      //Otherwise, add the number to the output array.
+    } else {
+      newArr.push(element);
+    }
+  });
+
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
