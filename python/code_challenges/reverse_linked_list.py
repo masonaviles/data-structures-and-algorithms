@@ -7,5 +7,14 @@ def reverse_list(ll):
     """
     # put your function implementation here
 
-    ll.reverse()
-    return ll
+    new = []
+    for i in ll:
+        new.insert(0, i)
+ 
+    return new
+
+def reverse(l):
+    new = []
+    for i in l:
+        new.insert(0, i)
+    return new
