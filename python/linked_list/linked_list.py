@@ -1,6 +1,9 @@
 class LinkedList:
-    def __init__(self):
-        self.head = None
+    def __init__(self, head=None, values=None):
+        self.head = head
+        if values:
+            for value in values:
+                self.insert(value)
         
     # return the whole list in the linked list
     def to_list(self):
