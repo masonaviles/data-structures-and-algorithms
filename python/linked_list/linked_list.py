@@ -14,11 +14,15 @@ class LinkedList:
         current = self.head
         length = 0
 
+        # walk and count
+        # count the nodes in the linked list
         while current:
             current = current.next
             length = length + 1
          
+        # if the total number of nodes(length) is more than or equal to `k`
         if length >= k:
+            # return (legngth-k+1)'th node from the beginning's value
             current = self.head
             for i in range(length - k):
                 current = current.next
