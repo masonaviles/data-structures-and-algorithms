@@ -1,7 +1,6 @@
 def multiBracketValidation(input):
-    bracket_map = {"(": ")", "[": "]",  "{": "}"}
     open_brackets = [ "[", "{", "(" ]
-    close_brackets = [ "]", "}" ")" ]
+    close_brackets = [ "]", "}", ")" ]
     stack = []
     for letter in input:
         if letter in open_brackets:
