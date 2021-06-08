@@ -1,16 +1,13 @@
 class Node:
-    def __init__(self, value):
-        self.left = None
-        self.right = None
+    def __init__(self, value, left=None, right=None):
+        self.left = left
+        self.right = right
         self.value = value
 
-class BinarySearchTree:
+class BinaryTree:
 
-    def __init__(self, node):
-        self.root = None
-        self.left = node.left
-        self.right = node.right
-        self.value = node.value
+    def __init__(self, root=None):
+        self.root = root
 
     def getRoot(self):
         return self.root
@@ -40,11 +37,26 @@ class BinarySearchTree:
             print(self.value)
 
     # A function to do preorder tree traversal
+    # root -> left -> right
     def preOrder(self):
         if self:
             # First print the data of node
-            print(self.value),
+            print(self.value)
             # Then recur on left child
             self.preOrder(self.left)
             # Finally recur on right child
             self.preOrder(self.right)
+
+if __name__ == "__main__":
+    tree = BinaryTree()
+    apple = Node("apple")
+    banana = Node("banana")
+    cucumber = Node("cucumber")
+    dragonfruit = Node("dragonfruit")
+
+    tree.root = apple
+    apple.left = banana
+    apple.right = cucumber
+    apple.right.right = dragonfruit
+
+    tree.preOrder()
