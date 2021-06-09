@@ -1,5 +1,3 @@
-from collections import deque
-
 class Node:
     def __init__(self, value):
         self.value = value
@@ -11,7 +9,7 @@ def breadth_first(root):
     if root is None:
         return
     # Create an empty queue
-    q = deque()
+    q = []
     bf_list = []
     # Enqueue Root
     q.append(root)
@@ -19,7 +17,7 @@ def breadth_first(root):
     while(len(q) > 0):
         # add front of queue to list and
         # remove it from queue
-        bf_list.append(q[0].data)
+        bf_list.append(q[0].value)
         node = q.pop(0)
         # Enqueue left child
         if node.left is not None:
