@@ -6,4 +6,15 @@ def reverse_list(ll):
         linked list in reversed form
     """
     # put your function implementation here
-    return ll
+
+    new = []
+    for i in ll:
+        new.insert(0, i)
+ 
+    return new
+
+def reverse(l):
+    new = []
+    for i in l:
+        new.insert(0, i)
+    return new
