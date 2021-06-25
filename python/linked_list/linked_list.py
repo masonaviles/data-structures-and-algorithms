@@ -1,18 +1,35 @@
 class LinkedList:
-    def __init__(self):
-        self.head = None
 
-    def insert(self, value):
-        self.head = Node(value, self.head)
-
-    def includes(self, search_value):
+    def __init__(self, head=None, values=None):
+        self.head = head
+        if values:
+            for value in values:
+                self.insert(value)
+        
+    # return the whole list in the linked list
+    def to_list(self):
+        values = []
         current = self.head
         while current:
-            if current.value == search_value:
+            values.append(current.value)
+            current = current.next
+        return values
+
+    # traverse list and check to see if value is in a LinkedList
+    def includes(self, value):
+        current = self.head
+        while current:
+            if current.value == value:
                 return True
             current = current.next
         return False
-
+    
+    # insert at the beginning
+    def insert(self, value):
+        # old_head = self.head
+        # node = Node(value, old_head)
+        self.head = Node(value, self.head)
+        # node.next = old_head
     def __str__(self):
         string = ''
         current = self.head
@@ -55,7 +72,6 @@ class LinkedList:
           break
         current = current.next
         insert_before_this = current.next
-        
     # Input -> takes a number, k
     # Output -> the node’s value that is [k] from the end of the linked list
 
@@ -78,10 +94,9 @@ class LinkedList:
 
         return current.data
 
-
-
-
 class Node:
-    def __init__(self, value, next=None):
-        self.value = value
+    def __init__(self, data, next=None):
+        self.data = data
         self.next = next
+
+
