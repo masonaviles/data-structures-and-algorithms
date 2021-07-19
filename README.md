@@ -53,3 +53,15 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 - [Challenge 31: hashmap-repeated-word](./python/code_challenges/hashmap_repeated_word)
 
 - [Challenge 32: hashmap-tree-intersection](./python/code_challenges/hashmap_tree_intersection)
+
+- [Challenge 33: hashmap-left-join](./python/code_challenges/hashmap_left_join)
+
+- [Data Structure 35: graphs](./python/data_structures/graphs)
+
+- [Challenge 36: graph-breadth-first](./python/code_challenges/graph_breadth_first)
+
+- [Challenge 37: graph-business-trip](./python/code_challenges/graph_business_trip)
+
+- [Challenge 38: graph-depth-first](./python/code_challenges/graph_depth_first)
+
+- [Challenge 41: graph-depth-first](./python/code_challenges/graph_depth_first)
