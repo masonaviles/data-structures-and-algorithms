@@ -16,9 +16,9 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ##### Directory:
 
-- [Challenge 01](./python/code_challenges/reverse_linked_list.py)
+- [Challenge 01: reverseArray](./python/code_challenges/reverse_linked_list.py)
 
-<!-- - [Challenge 02](../python/array_shift/README.md)
+- [Challenge 02: array_shift](./python/code_challenges/array-shift)
 
 - [Challenge 03](../python/array-binary-search/README.md)
 
@@ -42,4 +42,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 - [Challenge 35](../python/graph/README.md)
 
-- [Challenge 37](../python/graph_depth_first/README.md) -->
+- [Challenge 37](../python/graph_depth_first/README.md)
