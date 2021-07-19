@@ -14,7 +14,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ##### Directory:
 
-- [Challenge 01: reverseArray](./python/code_challenges/reverse_linked_list.py)
+- [Challenge 01: reverse-array](./python/code_challenges/reverse_linked_list.py)
 
 - [Challenge 02: array_shift](./python/code_challenges/array-shift)
 
