@@ -20,13 +20,13 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 - [Challenge 02: array_shift](./python/code_challenges/array-shift)
 
-- [Challenge 03](../python/array-binary-search/README.md)
+- [Challenge 03: binary-search](./python/code_challenges/binary-search)
 
-- [Challenge 05](../python/linked_list/README.md)
+- [Challenge 05: linked-list](./python/data_structures/linked_list)
 
-- [Challenge 07](../python/linked_list2/README.md)
+- [Challenge 06: linked-list-insertions](./python/code_challenges/insertion_sort)
 
-- [Challenge 08](../python/ll_zip/README.md)
+- [Challenge 07: linked-list-kth](./python/code_challenges/linked_list_kth)
 
 - [Challenge 10](../python/stacks_and_queues/README.md)
 
