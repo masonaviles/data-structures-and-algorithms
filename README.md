@@ -26,6 +26,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 - [Challenge 07: linked-list-kth](./python/code_challenges/linked_list_kth)
 
+- [Challenge 08: linked-list-zip](./python/code_challenges/ll_zip)
+
 - [Challenge 10](../python/stacks_and_queues/README.md)
 
 - [Challenge 12](../python/fifo_animal_shelter/README.md)
