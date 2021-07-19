@@ -48,3 +48,8 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 - [Challenge 27: merge-sort](./python/code_challenges/merge_sort)
 
+- [Challenge 28: quick-sort](./python/code_challenges/quick_sort)
+
+- [Challenge 31: hashmap-repeated-word](./python/code_challenges/hashmap_repeated_word)
+
+- [Challenge 32: hashmap-tree-intersection](./python/code_challenges/hashmap_tree_intersection)
