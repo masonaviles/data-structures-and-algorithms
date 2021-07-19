@@ -20,7 +20,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 - [Challenge 03: binary-search](./python/code_challenges/binary-search)
 
-- [Challenge 05: linked-list](./python/data_structures/linked_list)
+- [Data Structure 05: linked-list](./python/data_structures/linked_list)
 
 - [Challenge 06: linked-list-insertions](./python/code_challenges/insertion_sort)
 
@@ -28,18 +28,23 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 - [Challenge 08: linked-list-zip](./python/code_challenges/ll_zip)
 
-- [Challenge 10](../python/stacks_and_queues/README.md)
+- [Data Structure 10: stack-and-queue](./python/data_structures/stacks_and_queues)
 
-- [Challenge 12](../python/fifo_animal_shelter/README.md)
+- [Challenge 11: stack-queue-pseudo](./python/code_challenges/queue_with_stacks)
 
-- [Challenge 15](../python/BinaryTree/README.md)
+- [Challenge 12: stack-queue-animal-shelter](./python/code_challenges/animal_shelter)
 
-- [Challenge 27](../python/merge_sort/README.md)
+- [Challenge 13: stack-queue-brackets](./python/code_challenges/multi_bracket_validation)
 
-- [Challenge 28](../python/quick_sort/README.md)
+- [Data Structure 15: trees](./python/data_structures/trees)
 
-- [Challenge 31](../python/hashmap-tree-intersection/README.md)
+- [Challenge 16: tree-max](./python/code_challenges/find_max_binary_tree)
 
-- [Challenge 35](../python/graph/README.md)
+- [Challenge 17: tree-breadth-first](./python/code_challenges/breadth_first_binary_tree)
 
-- [Challenge 37](../python/graph_depth_first/README.md)
+- [Challenge 18: tree-fizz-buzz](./python/code_challenges/fizzbuzz_tree)
+
+- [Challenge 26: insertion-sort](./python/code_challenges/insertion_sort)
+
+- [Challenge 27: merge-sort](./python/code_challenges/merge_sort)
+
